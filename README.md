@@ -1,4 +1,4 @@
-# Library-Android-Application
-Library management system mobile application (Android)
+SerbisyoFinder Mobile Application
+SerbisyoFinder Mobile Application (Android)
 
-Capstone Project in Araullo High School 
+Client Project - Capstone
