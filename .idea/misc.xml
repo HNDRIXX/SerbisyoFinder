@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ESOFTWARE/Pictures/Saved Pictures/SerbisyoFinderApp/SerbisyoFinderApp/app/src/main/res/layout/activity_admin_home.xml" value="0.1" />
+        <entry key="..\:/Users/ESOFTWARE/Pictures/Saved Pictures/SerbisyoFinderApp/SerbisyoFinderApp/app/src/main/res/layout/activity_admin_new_service.xml" value="0.1" />
+        <entry key="..\:/Users/ESOFTWARE/Pictures/Saved Pictures/SerbisyoFinderApp/SerbisyoFinderApp/app/src/main/res/layout/activity_admin_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ESOFTWARE/Pictures/Saved Pictures/SerbisyoFinderApp/SerbisyoFinderApp/app/src/main/res/layout/activity_admin_service_category.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ESOFTWARE/Pictures/Saved Pictures/SerbisyoFinderApp/SerbisyoFinderApp/app/src/main/res/layout/activity_admin_service_provider.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ESOFTWARE/Pictures/Saved Pictures/SerbisyoFinderApp/SerbisyoFinderApp/app/src/main/res/layout/activity_admin_sub_service.xml" value="0.22" />
+        <entry key="..\:/Users/ESOFTWARE/Pictures/Saved Pictures/SerbisyoFinderApp/SerbisyoFinderApp/app/src/main/res/layout/activity_admin_users.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ESOFTWARE/Pictures/Saved Pictures/SerbisyoFinderApp/SerbisyoFinderApp/app/src/main/res/layout/activity_provider_booking_records.xml" value="0.15364583333333334" />
+        <entry key="..\:/Users/ESOFTWARE/Pictures/Saved Pictures/SerbisyoFinderApp/SerbisyoFinderApp/app/src/main/res/layout/activity_provider_bookings_panel.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ESOFTWARE/Pictures/Saved Pictures/SerbisyoFinderApp/SerbisyoFinderApp/app/src/main/res/layout/activity_provider_confirmed_bookings.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ESOFTWARE/Pictures/Saved Pictures/SerbisyoFinderApp/SerbisyoFinderApp/app/src/main/res/layout/activity_provider_confirmed_panel.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/ESOFTWARE/Pictures/Saved Pictures/SerbisyoFinderApp/SerbisyoFinderApp/app/src/main/res/layout/activity_provider_home.xml" value="0.15534420289855072" />
+        <entry key="..\:/Users/ESOFTWARE/Pictures/Saved Pictures/SerbisyoFinderApp/SerbisyoFinderApp/app/src/main/res/layout/activity_provider_pending_bookings.xml" value="0.18432971014492755" />
+        <entry key="..\:/Users/ESOFTWARE/Pictures/Saved Pictures/SerbisyoFinderApp/SerbisyoFinderApp/app/src/main/res/layout/activity_provider_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ESOFTWARE/Pictures/Saved Pictures/SerbisyoFinderApp/SerbisyoFinderApp/app/src/main/res/layout/activity_success_confirmed_booking.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/ESOFTWARE/Pictures/Saved Pictures/SerbisyoFinderApp/SerbisyoFinderApp/app/src/main/res/layout/activity_success_delete_service.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/ESOFTWARE/Pictures/Saved Pictures/SerbisyoFinderApp/SerbisyoFinderApp/app/src/main/res/layout/activity_user_book_services.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ESOFTWARE/Pictures/Saved Pictures/SerbisyoFinderApp/SerbisyoFinderApp/app/src/main/res/layout/activity_user_bookings.xml" value="0.15364583333333334" />
+        <entry key="..\:/Users/ESOFTWARE/Pictures/Saved Pictures/SerbisyoFinderApp/SerbisyoFinderApp/app/src/main/res/layout/activity_user_form_book_service.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/ESOFTWARE/Pictures/Saved Pictures/SerbisyoFinderApp/SerbisyoFinderApp/app/src/main/res/layout/activity_user_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ESOFTWARE/Pictures/Saved Pictures/SerbisyoFinderApp/SerbisyoFinderApp/app/src/main/res/layout/activity_user_profile.xml" value="0.15364583333333334" />
+        <entry key="..\:/Users/ESOFTWARE/Pictures/Saved Pictures/SerbisyoFinderApp/SerbisyoFinderApp/app/src/main/res/layout/activity_user_sub_services.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ESOFTWARE/Pictures/Saved Pictures/SerbisyoFinderApp/SerbisyoFinderApp/app/src/main/res/layout/item_pendingbookings.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ESOFTWARE/Pictures/Saved Pictures/SerbisyoFinderApp/SerbisyoFinderApp/app/src/main/res/layout/item_providers.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ESOFTWARE/Pictures/Saved Pictures/SerbisyoFinderApp/SerbisyoFinderApp/app/src/main/res/layout/item_servicecategory.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ESOFTWARE/Pictures/Saved Pictures/SerbisyoFinderApp/SerbisyoFinderApp/app/src/main/res/layout/item_serviceprovider.xml" value="0.15364583333333334" />
+        <entry key="..\:/Users/ESOFTWARE/Pictures/Saved Pictures/SerbisyoFinderApp/SerbisyoFinderApp/app/src/main/res/layout/item_users.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/drawable/backcorner.xml" value="0.1" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/drawable/borderregular.xml" value="0.1365" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/drawable/borderregularrounded.xml" value="0.1365" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/drawable/borderrounded.xml" value="0.165" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/drawable/bordersemirounded.xml" value="0.165" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/drawable/buttonborderrounded.xml" value="0.1365" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/drawable/circle.xml" value="0.1625" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/drawable/edit_text.xml" value="0.1625" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1625" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.1625" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.1625" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/drawable/ic_baseline_book_24.xml" value="0.1625" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/drawable/ic_baseline_vpn_key_24.xml" value="0.165" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/drawable/icon_back.xml" value="0.1365" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/drawable/icon_book.xml" value="0.1365" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/drawable/icon_calendar.xml" value="0.1365" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/drawable/icon_checkmark.xml" value="0.1365" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/drawable/icon_marker.xml" value="0.1365" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/drawable/icon_pen.xml" value="0.1365" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/drawable/icon_profile.xml" value="0.1365" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/drawable/icon_star.xml" value="0.1365" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/drawable/icon_tools.xml" value="0.1365" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/drawable/icon_users.xml" value="0.1365" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/drawable/icon_warning.xml" value="0.1365" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/drawable/progress_bg.xml" value="0.165" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/drawable/rounded.xml" value="0.165" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/activity_admin_home.xml" value="0.22" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/activity_admin_new_service.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/activity_admin_service_category.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/activity_main.xml" value="0.4083333333333333" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/activity_map_fragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/activity_message.xml" value="0.22" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/activity_provider_booking_records.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/activity_provider_booking_records_panel.xml" value="0.33" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/activity_provider_bookings_panel.xml" value="0.25" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/activity_provider_confirmed_bookings.xml" value="0.25" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/activity_provider_confirmed_panel.xml" value="0.22" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/activity_provider_home.xml" value="0.34762633996937214" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/activity_provider_pending_bookings.xml" value="0.16" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/activity_provider_profile.xml" value="0.18" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/activity_rate.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/activity_success_book_service.xml" value="0.33" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/activity_success_confirmed_booking.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/activity_success_confirmed_pending.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/activity_success_delete_service.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/activity_success_rate.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/activity_success_sign_up.xml" value="0.22" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/activity_user_book_services.xml" value="0.33" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/activity_user_bookings.xml" value="0.25" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/activity_user_bookings_panel.xml" value="0.22" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/activity_user_form_book_service.xml" value="0.33" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/activity_user_home.xml" value="0.47890295358649787" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/activity_user_panel_bookings.xml" value="0.25" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/activity_user_profile.xml" value="0.18" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/activity_user_select_service_provider.xml" value="0.25" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/activity_user_sub_services.xml" value="0.4407766990291262" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/fragment_map.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/fragment_provider_map.xml" value="0.14114583333333333" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/fragment_view_map.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/item_message.xml" value="0.33" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/item_pendingbookings.xml" value="0.25" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/item_providersched.xml" value="0.67" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/item_servicecategory.xml" value="0.5" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/item_serviceprovider.xml" value="0.34594594594594597" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/item_userbookings.xml" value="0.33" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/spinner_item.xml" value="0.203125" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/splashscreen.xml" value="0.2" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/layout/success_signup.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Desktop/SerbisyoFinderApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1365" />
+        <entry key="..\:/Users/PC/Downloads/Library-Android-Application-main/Library-Android-Application-main/app/src/main/res/layout/activity_addbook.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Downloads/Library-Android-Application-main/Library-Android-Application-main/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/PC/Downloads/Library-Android-Application-main/Library-Android-Application-main/app/src/main/res/layout/splashscreen.xml" value="0.19322916666666667" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/activity_active_screen.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/activity_admin_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/activity_admin_new_service.xml" value="0.33" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/activity_admin_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/activity_admin_service_category.xml" value="0.25" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/activity_admin_service_provider.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/activity_admin_sub_service.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/activity_admin_users.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/activity_message.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/activity_provider_booking_records.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/activity_provider_booking_records_panel.xml" value="0.22" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/activity_provider_bookings_panel.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/activity_provider_confirmed_bookings.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/activity_provider_confirmed_panel.xml" value="0.4946808510638298" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/activity_provider_home.xml" value="0.25" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/activity_provider_pending_bookings.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/activity_provider_profile.xml" value="0.5" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/activity_rate.xml" value="0.25" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/activity_sign_up.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/activity_success_confirmed_booking.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/activity_success_confirmed_pending.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/activity_success_sign_up.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/activity_user_book_services.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/activity_user_bookings.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/activity_user_bookings_panel.xml" value="0.33" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/activity_user_form_book_service.xml" value="0.22" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/activity_user_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/activity_user_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/activity_user_select_service_provider.xml" value="0.22" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/activity_user_sub_services.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/item_message.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/item_pendingbookings.xml" value="0.5" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/item_providersched.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/item_servicecategory.xml" value="0.33" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/item_serviceprovider.xml" value="0.5" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/item_userbookings.xml" value="0.33" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/item_users.xml" value="0.33" />
+        <entry key="..\:/Users/PC/Pictures/SerbisyoFinderApp/app/src/main/res/layout/spinner_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/drawable/circle.xml" value="0.2075" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/drawable/ic_baseline_camera_24.xml" value="0.2075" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/drawable/ic_baseline_camera_alt_24.xml" value="0.2075" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/drawable/search_stroke.xml" value="0.1635" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/drawable/shape.xml" value="0.1635" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/drawable/solidborder.xml" value="0.1635" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/activity_addbook.xml" value="0.22" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/activity_adminhome.xml" value="0.18" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/activity_borrowed_books_list.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/activity_borrowed_user_list.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/activity_information.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/activity_instruction_slider.xml" value="0.21" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/activity_intro_slider.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/activity_issue_books.xml" value="0.2" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/activity_issue_books_click.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/activity_librarycontacts.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/activity_libraryinfo.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/activity_libraryuserinfo.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/activity_libraryusers.xml" value="0.22" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/activity_managebooks.xml" value="0.33" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/activity_managepolicy.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/activity_profile.xml" value="0.14" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/activity_register.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/activity_return_books.xml" value="0.25" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/activity_return_books_click.xml" value="0.25" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/activity_returned_books_list.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/activity_scan_books.xml" value="0.22" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/activity_scan_books_success.xml" value="0.33" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/activity_scan_books_success_click.xml" value="0.22" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/activity_searchbooks.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/activity_searchbooksclick.xml" value="0.25" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/activity_shelves.xml" value="0.33" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/activity_shelves_click.xml" value="0.22" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/activity_update_catalog.xml" value="0.2" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/activity_userhome.xml" value="0.22" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/activity_viewrecords.xml" value="0.33" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/dialog_pathfinder.xml" value="0.25" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/dialog_positive_layout.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/instructionslider.xml" value="0.22" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/issue_and_return_item.xml" value="0.22" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/search_item.xml" value="0.25" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/shelves_item.xml" value="0.5" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/slider_layout.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/spinner_item.xml" value="0.22" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/splashscreen.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/update_catalog_item.xml" value="0.33" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/update_popup.xml" value="0.33" />
+        <entry key="..\:/Users/Patrick/Documents/AndroidStudioProjects/LibraryApp/app/src/main/res/layout/useritem.xml" value="0.75" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

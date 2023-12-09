@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/providerHomeLayout"
+    tools:context=".ProviderHome">
+
+    <ImageView
+        android:id="@+id/progressBarBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E2DADADA"
+        android:elevation="100dp"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.ProgressBar.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+        android:elevation="100dp"
+        android:visibility="gone"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/progress_bg"
+        android:progress="0"
+        />
+
+    <TextView
+        android:id="@+id/progressBarText"
+        android:background="#00000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF5722"
+        android:text="LOADING."
+        android:elevation="100dp"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@id/progressBar"
+        android:layout_alignRight="@id/progressBar"
+        android:layout_below="@id/progressBar"/>
+
+    <ImageView
+        android:id="@+id/iconTop"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/logo"/>
+
+    <RelativeLayout
+        android:id="@+id/headerWrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iconTop"
+        android:layout_marginTop="-15dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bordersemirounded"
+        android:backgroundTint="@color/baseOrange"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        >
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/workers" />
+
+        <LinearLayout
+            android:id="@+id/headerTextWrapper"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/icon"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/welcomeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome, Provider!"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/subWelcomeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enjoy your access by using our SerbisyoFinder application."
+                android:textColor="@color/white"
+                android:textSize="13dp"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/totalBookingsWrapper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headerWrapper"
+        android:layout_marginHorizontal="20dp"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="13dp"
+        android:background="@drawable/borderregular"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.3"
+            android:gravity="center|left"
+            android:src="@drawable/icon_book"
+            android:tint="@color/baseOrange"/>
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:layout_weight="0.3"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:text="Total Successful Bookings:"
+            android:textColor="@color/darkGray"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/totalBookingsValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:paddingRight="10dp"
+            android:gravity="right"
+            android:text="Null"
+            android:textColor="@color/darkGray"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/totalEarningsWrapper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/totalBookingsWrapper"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="13dp"
+        android:background="@drawable/borderregular"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:layout_weight="0.3"
+            android:gravity="center|left"
+            android:src="@drawable/icon_money"
+            android:tint="@color/baseOrange"/>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="center|left"
+            android:text="Total Earnings:"
+            android:textColor="@color/darkGray"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/totalEarningsValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:paddingRight="10dp"
+            android:gravity="right"
+            android:text="Null"
+            android:textColor="@color/darkGray"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/accessMenuText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/totalEarningsWrapper"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="Access Menu"
+        android:textColor="@color/darkGray"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+    <View
+        android:id="@+id/firstLine"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/accessMenuText"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@color/lineColor"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/firstLine"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/signOutButton"
+        android:layout_marginHorizontal="20dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/pendingBookingsWrapper"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/buttonborderrounded">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/providerPendingBookingsButton"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/bordersemirounded"
+                    android:drawableRight="@drawable/icon_book"
+                    android:drawableTint="@color/baseOrange"
+                    android:gravity="left"
+                    android:letterSpacing="-.0001"
+                    android:shadowColor="@color/white"
+                    android:text="Pending Bookings"
+                    android:textAllCaps="false"
+                    android:textColor="@color/darkGray"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    app:backgroundTint="@color/white" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/providerPendingBookingsButton"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="-20dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Check your pending bookings."
+                    android:textColor="@color/darkGray"
+                    android:textSize="11dp"
+                    android:textStyle="italic" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/confirmedBookingsWrapper"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:layout_marginBottom="8dp"
+                android:layout_below="@id/pendingBookingsWrapper"
+                android:background="@drawable/buttonborderrounded">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/providerConfirmedBookingsButton"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/bordersemirounded"
+                    android:drawableRight="@drawable/icon_pen"
+                    android:drawableTint="@color/baseOrange"
+                    android:gravity="left"
+                    android:letterSpacing="-.0001"
+                    android:shadowColor="@color/white"
+                    android:text="Confirmed Bookings"
+                    android:textAllCaps="false"
+                    android:textColor="@color/darkGray"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    app:backgroundTint="@color/white" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/providerConfirmedBookingsButton"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="-20dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Update your confirmed bookings."
+                    android:textColor="@color/darkGray"
+                    android:textSize="11dp"
+                    android:textStyle="italic" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/bookingRecordsWrapper"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:layout_marginBottom="8dp"
+                android:layout_below="@id/confirmedBookingsWrapper"
+                android:background="@drawable/buttonborderrounded">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/providerBookingsButton"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/bordersemirounded"
+                    android:drawableRight="@drawable/icon_checkmark"
+                    android:drawableTint="@color/baseOrange"
+                    android:gravity="left"
+                    android:letterSpacing="-.0001"
+                    android:shadowColor="@color/white"
+                    android:text="Booking Records"
+                    android:textAllCaps="false"
+                    android:textColor="@color/darkGray"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    app:backgroundTint="@color/white" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/providerBookingsButton"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="-20dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="See your all completed booking records."
+                    android:textColor="@color/darkGray"
+                    android:textSize="11dp"
+                    android:textStyle="italic" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/profileWrapper"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:layout_marginBottom="8dp"
+                android:layout_below="@id/bookingRecordsWrapper"
+                android:background="@drawable/buttonborderrounded">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/providerProfileButton"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/bordersemirounded"
+                    android:drawableRight="@drawable/icon_profile"
+                    android:drawableTint="@color/baseOrange"
+                    android:gravity="left"
+                    android:letterSpacing="-.0001"
+                    android:shadowColor="@color/white"
+                    android:text="Profile"
+                    android:textAllCaps="false"
+                    android:textColor="@color/darkGray"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    app:backgroundTint="@color/white" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/providerProfileButton"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="-20dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Access your profile page."
+                    android:textColor="@color/darkGray"
+                    android:textSize="11dp"
+                    android:textStyle="italic" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/signOutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/borderrounded"
+        android:text="SIGN-OUT"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:backgroundTint="@color/baseOrange" />
+
+
+</RelativeLayout>

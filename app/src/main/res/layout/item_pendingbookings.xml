@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    card_view:cardElevation="0dp"
+    android:id="@+id/rootView">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:backgroundTint="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:background="@drawable/bordersemirounded"
+            android:paddingHorizontal="10dp">
+
+            <TextView
+                android:id="@+id/mainServiceValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="House Cleaning and Maid Services"
+                android:textColor="@color/darkGray"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/subServiceValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mainServiceValue"
+                android:text="General Cleaning"
+                android:textColor="@color/darkGray"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/dateServiceValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/subServiceValue"
+                android:text="October 10, 2023"
+                android:textColor="@color/darkGray"
+                android:textSize="13dp" />
+
+            <LinearLayout
+                android:id="@+id/serviceProviderWrapper"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dateServiceValue"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:drawableLeft="@drawable/icon_users"
+                    android:drawablePadding="5dp"
+                    android:drawableTint="@color/baseOrange"
+                    android:gravity="center|left"
+                    android:text="Client:"
+                    android:textColor="@color/darkGray"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/clientValue"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:gravity="center|left"
+                    android:text="123 Tondo Manila"
+                    android:textColor="@color/darkGray"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/priceWrapper"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/serviceProviderWrapper"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:drawableLeft="@drawable/icon_money"
+                    android:drawablePadding="5dp"
+                    android:drawableTint="@color/baseOrange"
+                    android:gravity="center|left"
+                    android:text="Price:"
+                    android:textColor="@color/darkGray"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/priceValue"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:gravity="center|left"
+                    android:text="500"
+                    android:textColor="@color/darkGray"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/statusWrapper"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/priceWrapper"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:drawableLeft="@drawable/icon_bell"
+                    android:drawablePadding="5dp"
+                    android:drawableTint="@color/baseOrange"
+                    android:gravity="center|left"
+                    android:text="Status:"
+                    android:textColor="@color/darkGray"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/statusValue"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:gravity="center|left"
+                    android:text="Service Confirmed"
+                    android:textColor="@color/darkGray"
+                    android:textSize="13dp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

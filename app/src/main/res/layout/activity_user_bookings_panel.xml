@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/userBookingsPanelLayout"
+    tools:context=".UserBookingsPanel">
+
+    <ImageView
+        android:id="@+id/progressBarBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E2DADADA"
+        android:elevation="100dp"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.ProgressBar.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+        android:elevation="100dp"
+        android:visibility="gone"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/progress_bg"
+        android:progress="0"
+        />
+
+    <TextView
+        android:id="@+id/progressBarText"
+        android:background="#00000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF5722"
+        android:text="LOADING."
+        android:elevation="100dp"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@id/progressBar"
+        android:layout_alignRight="@id/progressBar"
+        android:layout_below="@id/progressBar"/>
+
+    <ImageView
+        android:id="@+id/iconTop"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/logo" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/backButton"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/iconTop"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded"
+        android:drawableLeft="@drawable/icon_back"
+        app:backgroundTint="@color/white" />
+
+    <TextView
+        android:id="@+id/panelTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iconTop"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Panel Page"
+        android:textColor="@color/darkGray"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/firstLine"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/panelTitle"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/lineColor" />
+
+    <RelativeLayout
+        android:id="@+id/headerWrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/firstLine"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/buttonborderrounded"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp">
+
+        <TextView
+            android:id="@+id/scheduleIDValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/mainServiceValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Main Service"
+            android:textColor="@color/darkGray"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/subServiceValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mainServiceValue"
+            android:text="Sub Service"
+            android:textColor="@color/darkGray"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/providerPhoneNumValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subServiceValue"
+            android:text="Provider Phone Num"
+            android:textColor="@color/darkGray"
+            android:textSize="12dp" />
+
+        <LinearLayout
+            android:id="@+id/priceWrapper"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/providerPhoneNumValue"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:src="@drawable/icon_users"
+                android:tint="@color/baseOrange" />
+
+            <TextView
+                android:id="@+id/providerNameValue"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.5"
+                android:gravity="center|left"
+                android:text="Service Provider"
+                android:textColor="@color/darkGray"
+                android:textSize="13dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/priceTitle"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headerWrapper"
+        android:layout_marginHorizontal="20dp"
+        android:drawableLeft="@drawable/icon_money"
+        android:drawablePadding="5dp"
+        android:drawableTint="@color/baseOrange"
+        android:gravity="center|left"
+        android:text="Price:"
+        android:textColor="@color/darkGray"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/priceValue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/priceTitle"
+        android:layout_marginHorizontal="20dp"
+        android:gravity="center|left"
+        android:text="Price"
+        android:textColor="@color/darkGray"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/bookingStatusTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/priceValue"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Booking Status"
+        android:textColor="@color/darkGray"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/statusWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@id/bookingStatusTitle"
+        android:layout_above="@id/buttonsWrapper"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/borderregularrounded"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/waitingIcon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_above="@id/halfView"
+            android:src="@drawable/icon_clock"
+            android:tint="@color/baseOrange"
+            android:visibility="gone"
+        />
+
+        <ImageView
+            android:id="@+id/confirmedIcon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_above="@id/halfView"
+            android:src="@drawable/icon_service"
+            android:tint="@color/baseOrange"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/completedIcon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_above="@id/halfView"
+            android:src="@drawable/ic_baseline_check_circle_24"
+            android:tint="@color/baseOrange"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/halfView"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:id="@+id/statusValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/halfView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginVertical="10dp"
+            android:gravity="center"
+            android:text="Status"
+            android:textColor="@color/darkGray"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/subStatusValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/statusValue"
+            android:layout_marginHorizontal="30dp"
+            android:gravity="center"
+            android:text="Sub Text"
+            android:textColor="@color/darkGray"
+            android:textSize="14dp"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+
+
+   <RelativeLayout
+       android:id="@+id/buttonsWrapper"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginHorizontal="20dp"
+       android:layout_alignParentBottom="true">
+
+       <com.google.android.material.button.MaterialButton
+           android:id="@+id/rateButton"
+           android:visibility="gone"
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:layout_marginHorizontal="20dp"
+           android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
+           android:background="@drawable/borderrounded"
+           android:text="RATE"
+           android:textColor="@color/white"
+           android:textStyle="bold"
+           app:backgroundTint="@color/baseOrange" />
+
+       <com.google.android.material.button.MaterialButton
+           android:id="@+id/messageButton"
+           android:visibility="gone"
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:layout_below="@id/statusWrapper"
+           android:layout_marginHorizontal="20dp"
+           android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
+           android:background="@drawable/borderrounded"
+           android:text="MESSAGE"
+           android:textColor="@color/white"
+           android:textStyle="bold"
+           app:backgroundTint="@color/baseOrange" />
+   </RelativeLayout>
+</RelativeLayout>

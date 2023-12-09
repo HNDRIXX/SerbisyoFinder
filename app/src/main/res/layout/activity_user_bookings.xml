@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/userBookingsLayout"
+    tools:context=".UserBookings">
+
+    <ImageView
+        android:id="@+id/iconTop"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/logo" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/backButton"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/iconTop"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded"
+        android:drawableLeft="@drawable/icon_back"
+        app:backgroundTint="@color/white" />
+
+    <TextView
+        android:id="@+id/bookingListTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iconTop"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Booking List"
+        android:textColor="@color/darkGray"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/firstLine"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/bookingListTitle"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/lineColor" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.ProgressBar.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/firstLine"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/progress_bg"
+        android:progress="0"
+        android:elevation="1dp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/noResultDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/firstLine"
+        android:layout_margin="50dp"
+        android:elevation="90dp"
+        android:visibility="gone">
+        <ImageView
+            android:id="@+id/noResultIcon"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon_book"
+            android:layout_centerHorizontal="true"
+            android:tint="#AFAFAF"/>
+        <TextView
+            android:id="@+id/noResultText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/noResultIcon"
+            android:gravity="center"
+            android:text="No Bookings Found."/>
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/userBookingsList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_below="@id/firstLine"
+        android:elevation="100dp"
+        android:layout_marginBottom="20dp"
+        android:nestedScrollingEnabled="false" />
+
+</RelativeLayout>

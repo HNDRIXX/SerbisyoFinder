@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    card_view:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:backgroundTint="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/serviceProviderWrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/firstLine"
+            android:background="@drawable/bordersemirounded"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="5dp">
+
+            <ImageView
+                android:id="@+id/providerIcon"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_profile"
+                app:tint="@color/baseOrange" />
+
+            <LinearLayout
+                android:id="@+id/providerTextWrapper"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginHorizontal="10dp"
+                android:layout_toRightOf="@+id/providerIcon"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/providerID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0000"
+                    android:textSize="10dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/providerName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="James Baniri"
+                    android:textColor="@color/darkGray"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/providerOccupation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Technician"
+                    android:textColor="@color/darkGray"
+                    android:textSize="13dp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/ratingsCounter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/icon_star"
+                android:drawableTint="@color/baseOrange"
+                android:text="5"
+                android:textColor="@color/darkGray"
+                android:textSize="15dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

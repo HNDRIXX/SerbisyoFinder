@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SerbisyoFinder" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryVariant">@color/orange</item>
+        <item name="colorOnPrimary">@color/orange</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/orange</item>
+        <item name="colorSecondaryVariant">@color/orange</item>
+        <item name="colorOnSecondary">#202020</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/orange</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="TextAppearance.AppCompat.Widget.Actionbar.Title" parent="@android:style/TextAppearance">
+        <item name="android:textSize">10dp</item>
+    </style>
+
+    <style name="GreenAccent" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorAccent">@color/orange</item>
+    </style>
+
+    <style name="Theme.SerbisyoFinder.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.SerbisyoFinder.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.SerbisyoFinder.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

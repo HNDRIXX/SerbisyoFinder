@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/adminNewService"
+    tools:context=".AdminNewService">
+
+    <ImageView
+        android:id="@+id/progressBarBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E2DADADA"
+        android:elevation="100dp"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.ProgressBar.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+        android:elevation="100dp"
+        android:visibility="gone"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/progress_bg"
+        android:progress="0"
+        />
+
+    <TextView
+        android:id="@+id/progressBarText"
+        android:background="#00000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF5722"
+        android:text="LOADING."
+        android:elevation="100dp"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@id/progressBar"
+        android:layout_alignRight="@id/progressBar"
+        android:layout_below="@id/progressBar"/>
+
+    <ImageView
+        android:id="@+id/iconTop"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/logo" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/backButton"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/iconTop"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded"
+        android:drawableLeft="@drawable/icon_back"
+        app:backgroundTint="@color/white" />
+
+    <TextView
+        android:id="@+id/formBookText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iconTop"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Form Book Service"
+        android:textColor="@color/darkGray"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/firstLine"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/formBookText"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/lineColor" />
+
+
+    <TextView
+        android:id="@+id/mainServiceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/firstLine"
+        android:layout_marginHorizontal="20dp"
+        android:text="Main Service Category Name:"
+        android:textColor="@color/darkGray"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/mainServiceValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mainServiceText"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/borderregular"
+        android:hint="Main Service Title"
+        android:inputType="textCapWords"
+        android:lines="1"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:singleLine="true" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/addPhotoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mainServiceValue"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/borderrounded"
+        android:text="ADD ICON"
+        android:textColor="@color/white"
+        android:textSize="13dp"
+        app:backgroundTint="@color/baseOrange" />
+
+    <TextView
+        android:id="@+id/subService1Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addPhotoButton"
+        android:layout_marginHorizontal="20dp"
+        android:text="Sub Service #1:"
+        android:textColor="@color/darkGray"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/subService1Value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:maxLines="1"
+        android:lines="1"
+        android:singleLine="true"
+        android:inputType="textCapWords|textCapSentences"
+        android:capitalize="words"
+        android:layout_below="@id/subService1Text"
+        android:layout_marginHorizontal="20dp"
+        android:padding="5dp"
+        android:hint="Sub Service 1"
+        android:background="@drawable/borderregular"/>
+
+    <TextView
+        android:id="@+id/subService2Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subService1Value"
+        android:layout_marginHorizontal="20dp"
+        android:text="Sub Service #2:"
+        android:textColor="@color/darkGray"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/subService2Value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:maxLines="1"
+        android:lines="1"
+        android:singleLine="true"
+        android:inputType="textCapWords|textCapSentences"
+        android:capitalize="words"
+        android:layout_below="@id/subService2Text"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/borderregular"
+        android:hint="Sub Service 2"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/subService3Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subService2Value"
+        android:layout_marginHorizontal="20dp"
+        android:text="Sub Service #3:"
+        android:textColor="@color/darkGray"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/subService3Value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subService3Text"
+        android:layout_marginHorizontal="20dp"
+        android:maxLines="1"
+        android:lines="1"
+        android:singleLine="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/borderregular"
+        android:hint="Sub Service 3"
+        android:inputType="textCapWords|textCapSentences"
+        android:capitalize="words"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/subService4Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subService3Value"
+        android:layout_marginHorizontal="20dp"
+        android:text="Sub Service #4:"
+        android:textColor="@color/darkGray"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/subService4Value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subService4Text"
+        android:layout_marginHorizontal="20dp"
+        android:padding="5dp"
+        android:maxLines="1"
+        android:lines="1"
+        android:singleLine="true"
+        android:layout_marginBottom="10dp"
+        android:hint="Sub Service 4"
+        android:inputType="textCapWords|textCapSentences"
+        android:capitalize="words"
+        android:background="@drawable/borderregular"/>
+
+    <TextView
+        android:id="@+id/subService5Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subService4Value"
+        android:layout_marginHorizontal="20dp"
+        android:text="Sub Service #5:"
+        android:textColor="@color/darkGray"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/subService5Value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subService5Text"
+        android:layout_marginHorizontal="20dp"
+        android:padding="5dp"
+        android:hint="Sub Service 5"
+        android:inputType="textCapWords|textCapSentences"
+        android:capitalize="words"
+        android:background="@drawable/borderregular"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subService5Value"
+        android:visibility="gone"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/submitServiceButton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/subService5Value"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/borderrounded"
+        android:text="SUBMIT"
+        android:textColor="@color/white"
+        android:textSize="13dp"
+        app:backgroundTint="@color/baseOrange" />
+
+</RelativeLayout>

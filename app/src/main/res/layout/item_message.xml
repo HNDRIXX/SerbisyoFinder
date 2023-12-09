@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tint="@color/darkGray"
+            android:src="@drawable/icon_profile" />
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="10dp"
+           android:backgroundTint="#FDE9E3"
+           android:padding="10dp"
+           android:background="@drawable/borderregular">
+           <TextView
+               android:id="@+id/youNameValue"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="10dp"
+               android:text="You"
+               android:textSize="13dp"
+               android:textStyle="bold"
+               android:textColor="@color/darkGray" />
+
+           <TextView
+               android:id="@+id/messageValue"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="10dp"
+               android:layout_marginTop="5dp"
+               android:layout_below="@id/youNameValue"
+               android:text="Message"
+               android:textSize="13dp"
+               android:textColor="@color/darkGray" />
+       </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

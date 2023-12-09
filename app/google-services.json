@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "157849686397",
+    "firebase_url": "https://serbisyofinder-f09d8-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "serbisyofinder-f09d8",
+    "storage_bucket": "serbisyofinder-f09d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157849686397:android:ec12cc6148ffa384fabc14",
+        "android_client_info": {
+          "package_name": "com.example.serbisyofinder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIuTigaoehba_HDlI_yENwXEc6tQi3f4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157849686397:android:c63cd5b023eb7225fabc14",
+        "android_client_info": {
+          "package_name": "com.example.serbisyofinder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIuTigaoehba_HDlI_yENwXEc6tQi3f4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
