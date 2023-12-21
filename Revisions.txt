@@ -1,0 +1,60 @@
+Included
+- You name 
+- Date Messages
+-
+
+DONE (NEED) - 1. Selection of date in booking - 
+- Hindi macliclick yung calendar day kapag may certain service booking na
+
+DONE - 2. Select certain service to Airconditioning and Cooling
+- Dadagdagan ng phrase kapag magseselect sa title header kapag nagselect ng certain service
+
+DONE - 3. Set price (cancbe change if negotiate)
+- May negotiate na ang pricing, both end ng user at service provider
+
+DONE (NEED) - 4. Booking (can book multiple days in one booking)
+- Pwede mag book ng multiple na araw sa iisang booking na iseset o icoconfirm
+
+DONE (NEED) - 5. "The client is satisfied to Mark as completed"
+- Dadagdagan lang din ng phrase sa title header
+
+DONE (NEED) - 6. Booking (paramete within 3 months)
+- ?????
+
+DONE (NEED) - 7. Cancellation Booking
+- Pwede na magcancel, pero saan to sa service provider o user or both?
+
+DONE - 8. Messaging (Left, Right) 
+- Kapag ikaw, right ka. Kapag kausap mo, left ka.
+
+DONE (NEED) - 9. Reviews
+- Iinclude saan to sa sa user o sa service provider?
+
+DONE - 10. Good Job (no box, so user understand its not editable)
+- ?????
+
+DONE (NEED) - 11. Super Admin (handles admin)
+- May idadagdag na na super admin, para maihandle ang admin.
+
+DONE - 12. Search bar (for list of users and service provider)
+- May search na iinclude sa admin 
+
+DONE - 13. Change Password
+- Pwede na mag change password
+
+DONE - 14. Range nearby location and ratings
+- Ratings lang
+
+DONE (NEED) - 14. Tagline
+- ?????????
+
+High Priority 
+- Selection of date in booking
+- Set price
+- Booking (multiple days booking)
+- Range nearby location and ratings
+- Cancellation
+- Messaging Left Right
+- Super Admin
+- Search bar
+- Change Password

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    app:cardCornerRadius="10dp"
+    card_view:cardElevation="3dp"
+    card_view:cardUseCompatPadding="true"
+    app:cardUseCompatPadding="true"
+    android:id="@+id/rootView">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/providerScheduleDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:textAllCaps="false"
+                android:textSize="8dp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/providerScheduleMonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/providerScheduleDate"
+                android:paddingHorizontal="10dp"
+                android:text="Month"
+                android:textAllCaps="false"
+                android:textColor="@color/baseOrange"
+                android:textSize="11dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/providerScheduleDay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/providerScheduleMonth"
+                android:paddingHorizontal="10dp"
+                android:text="Day"
+                android:textAllCaps="false"
+                android:textColor="@color/darkGray"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/providerScheduleYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/providerScheduleDay"
+                android:paddingHorizontal="10dp"
+                android:text="Year"
+                android:textAllCaps="false"
+                android:textColor="@color/darkGray"
+                android:textSize="10dp"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

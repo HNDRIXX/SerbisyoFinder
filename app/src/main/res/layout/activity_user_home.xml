@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/userHomeLayout"
+    tools:context=".UserHome">
+
+    <ImageView
+        android:id="@+id/progressBarBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E2DADADA"
+        android:elevation="100dp"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.ProgressBar.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+        android:elevation="100dp"
+        android:visibility="gone"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/progress_bg"
+        android:progress="0"
+        />
+
+    <TextView
+        android:id="@+id/progressBarText"
+        android:background="#00000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF5722"
+        android:text="LOADING."
+        android:elevation="100dp"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@id/progressBar"
+        android:layout_alignRight="@id/progressBar"
+        android:layout_below="@id/progressBar"/>
+
+    <ImageView
+        android:id="@+id/iconTop"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/logo" />
+
+    <RelativeLayout
+        android:id="@+id/headerWrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iconTop"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bordersemirounded"
+        android:backgroundTint="@color/baseOrange"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        >
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/workers" />
+
+        <LinearLayout
+            android:id="@+id/headerTextWrapper"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/icon"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/welcomeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome, User!"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/subWelcomeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enjoy your access by using our SerbisyoFinder application."
+                android:textColor="@color/white"
+                android:textSize="13dp"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/accessMenuText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headerWrapper"
+        android:text="Access Menu"
+        android:textSize="16dp"
+        android:textColor="@color/darkGray"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="20dp"/>
+    <View
+        android:id="@+id/firstLine"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/accessMenuText"
+        android:layout_marginBottom="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@color/lineColor"/>
+
+    <RelativeLayout
+        android:id="@+id/bookServicesWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginHorizontal="20dp"
+        android:paddingVertical="2dp"
+        android:layout_below="@id/firstLine"
+        android:background="@drawable/buttonborderrounded">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/userBookServicesButton"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/bordersemirounded"
+            android:drawableRight="@drawable/icon_tools"
+            android:drawableTint="@color/baseOrange"
+            android:gravity="left"
+            android:letterSpacing="-.0001"
+            android:shadowColor="@color/white"
+            android:text="Book Services"
+            android:textAllCaps="false"
+            android:textColor="@color/darkGray"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/white" />
+
+        <TextView
+            android:id="@+id/subBookServicesTextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userBookServicesButton"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="-25dp"
+            android:layout_marginBottom="20dp"
+            android:text="Tap to book service you need."
+            android:textColor="@color/darkGray"
+            android:textSize="12dp"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/userBookingsWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginHorizontal="20dp"
+        android:paddingVertical="2dp"
+        android:layout_below="@id/bookServicesWrapper"
+        android:background="@drawable/buttonborderrounded">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/userBookingsButton"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/bordersemirounded"
+            android:drawableRight="@drawable/icon_book"
+            android:drawableTint="@color/baseOrange"
+            android:gravity="left"
+            android:letterSpacing="-.0001"
+            android:shadowColor="@color/white"
+            android:text="Bookings"
+            android:textAllCaps="false"
+            android:textColor="@color/darkGray"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/white" />
+
+        <TextView
+            android:id="@+id/subBookingsTextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userBookingsButton"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="-25dp"
+            android:layout_marginBottom="20dp"
+            android:text="Check your overall bookings."
+            android:textColor="@color/darkGray"
+            android:textSize="12dp"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/userProfileWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:paddingVertical="2dp"
+        android:layout_below="@id/userBookingsWrapper"
+        android:background="@drawable/buttonborderrounded">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/userProfileButton"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/bordersemirounded"
+            android:drawableRight="@drawable/icon_profile"
+            android:drawableTint="@color/baseOrange"
+            android:gravity="left"
+            android:letterSpacing="-.0001"
+            android:shadowColor="@color/white"
+            android:text="Profile"
+            android:textAllCaps="false"
+            android:textColor="@color/darkGray"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/white" />
+
+        <TextView
+            android:id="@+id/subProfileTextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userProfileButton"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="-30dp"
+            android:layout_marginBottom="20dp"
+            android:text="Access your profile page."
+            android:textColor="@color/darkGray"
+            android:textSize="12dp"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/signOutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userProfileWrapper"
+        android:background="@drawable/borderrounded"
+        app:backgroundTint="@color/baseOrange"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="30dp"
+        android:text="SIGN-OUT"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        />
+
+
+</RelativeLayout>
